@@ -37,12 +37,6 @@
             layers = <0>;
         };
 
-        BT_ALL_CLEAR {
-            bindings = <&bt BT_CLR_ALL>;
-            key-positions = <9 8>;
-            layers = <2>;
-        };
-
         MB1_ {
             bindings = <&mkp MB1>;
             key-positions = <4 3>;
