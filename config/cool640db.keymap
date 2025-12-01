@@ -66,6 +66,21 @@
             key-positions = <4 3>;
             layers = <1>;
         };
+
+        LEFTCLICK {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+
+        RIGHTCLICK {
+            bindings = <&mkp RCLK>;
+            key-positions = <17 18>;
+        };
+
+        MIDDLECLICK {
+            bindings = <&mkp MCLK>;
+            key-positions = <16 18>;
+        };
     };
 
     macros {
@@ -96,10 +111,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W             &kp E      &kp R            &kp T             &kp Y        &kp U        &kp I      &kp O       &kp P
-&kp A             &kp S             &kp D      &kp F            &kp G             &kp H        &kp J        &kp K      &kp L       &mt LEFT_SHIFT MINUS
-&kp Z             &kp X             &kp C      &kp V            &kp B             &kp N        &kp M        &kp COMMA  &kp PERIOD  &mt RIGHT_COMMAND QUESTION
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &mkp LCLK  &lt 1 BACKSPACE  &lt 2 LANGUAGE_1  &lt 3 ENTER  &lt 0 SPACE  &mkp MCLK  &mkp RCLK   &kp ESCAPE
+&kp Q             &kp W             &kp E           &kp R            &kp T      &kp Y        &kp U        &kp I      &kp O       &kp P
+&kp A             &kp S             &kp D           &kp F            &kp G      &kp H        &kp J        &kp K      &kp L       &mt LEFT_SHIFT MINUS
+&kp Z             &kp X             &kp C           &kp V            &kp B      &kp N        &kp M        &kp COMMA  &kp PERIOD  &mt RIGHT_COMMAND QUESTION
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LANGUAGE_1  &lt 1 BACKSPACE  &mkp LCLK  &lt 3 ENTER  &lt 6 SPACE  &mkp MCLK  &mkp RCLK   &kp ESCAPE
             >;
         };
 
